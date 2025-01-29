@@ -1,0 +1,96 @@
+.login-outer-div{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 6rem;
+}
+
+
+.login-container-div{
+height: 27rem;
+width: 25rem;
+background-color: black;
+display: flex;
+border-radius: 20px;
+justify-content: center;
+box-shadow: 15px 15px 15px rgba(57, 48, 48, 0.2);
+align-items: center;
+flex-direction: row;
+}
+
+.hades-img-div{
+    height: 27rem;
+    width: 10rem;
+    /* border-radius: 20px; */
+    background-color: rgb(37, 32, 32);
+}
+
+.login-inner-div{
+    height: 27rem;
+    width: 15rem;
+    /* border-radius: 20px; */
+    background-color: rgb(112, 112, 112);
+    
+}
+
+.login-p{
+font-family: 'Space Grotesk';
+color: white;
+margin-left: 20px;
+font-size: medium;
+
+}
+
+.login-input-field{
+width: 12rem;
+margin-left: 20px;
+height: 25px;
+border-radius: 15px;
+border: none;
+
+}
+
+.login-title{
+    font-family: 'Space Grotesk';
+    margin-left: 2.5rem;
+
+
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+   
+}
+
+.all-fields-container{
+    margin-top: 4rem;
+}
+
+.login-submit-button{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: medium;
+    font-family: 'Space Grotesk';
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    transition: box-shadow 0.3s ease, transform 0.1s ease; 
+
+}
+
+.login-submit-button:hover{
+        transform: scale(1.02); 
+}
+
+.forgot-password-link
+
+{
+    margin-left: 5.5rem;
+    cursor: pointer;
+}
+
+.forgot-password-link:hover{
+    color: white;
+}

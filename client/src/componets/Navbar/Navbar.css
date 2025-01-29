@@ -35,11 +35,16 @@
     color: rgb(24, 24, 24);
     background-color: white; 
     border: none; 
-    
     transition: box-shadow 0.3s ease, transform 0.1s ease; 
 }
 
 .navbar-login-button:hover {
     
     transform: scale(1.03); 
+}
+
+.forgot-password-link{
+    font-size: small;
+    font-family: 'Space Grotesk';
+    margin-left: 6rem;
 }
